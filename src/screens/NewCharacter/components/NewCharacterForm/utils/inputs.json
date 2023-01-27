@@ -1,0 +1,30 @@
+{
+  "inputs":[
+    {
+      "id":"name",
+      "label":"Name",
+      "placeholder":"Insert the character name",
+      "type":"text",
+      "maxLength":20,
+      "required": true
+    },
+    {
+      "id":"height",
+      "label":"Height",
+      "placeholder":"The character height",
+      "type":"number",
+      "required": true
+    },
+    {
+      "id":"gender",
+      "label":"Gender",
+      "type":"option",
+      "required": true,
+      "options":[
+        "male",
+        "female",
+        "n/a"
+      ]
+    }
+  ]
+}
